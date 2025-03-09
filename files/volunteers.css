@@ -1,0 +1,19 @@
+@import url("staff.css");
+
+body {
+    grid-template-areas: 
+    "header header"
+    "volunteer_1 volunteer_2"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 1fr 60px;
+}
+
+#volunteer_1 {
+    grid-area: volunteer_1;
+}
+
+#volunteer_2 {
+    grid-area: volunteer_2;
+}
+

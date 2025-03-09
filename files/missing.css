@@ -1,0 +1,19 @@
+@import url("staff.css");
+
+body {
+    grid-template-areas: 
+    "header header"
+    "missing1 missing2"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 1fr 60px;
+}
+
+#missing_1 {
+    grid-area: missing1;
+}
+
+#missing_2 {
+    grid-area: missing2;
+}
+

@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "staff1 staff2 staff3"
+    "footer footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    gap: 10px;
+    margin: 0;
+}
+
+header, footer, div {
+    background-color: #6f256f;
+    padding: 20px;
+    color: white;
+}
+
+header {
+    grid-area: header;
+    justify-content: center;
+    display: flex;
+}
+
+
+#staff1 {
+    grid-area: staff1;
+}
+
+#staff2 {
+    grid-area: staff2;
+}
+
+#staff3 {
+    grid-area: staff3;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+a {
+    color:#c892c8;
+    margin: 10px;
+}
+
+p {
+    color: #c892c8;
+}
